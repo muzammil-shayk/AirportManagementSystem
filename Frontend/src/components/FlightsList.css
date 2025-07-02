@@ -1,0 +1,67 @@
+.flights-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px 20px;
+  justify-content: center;
+  background: linear-gradient(
+    to bottom,
+    #ad2831,
+    #800e13,
+    #640d14,
+    #38040e,
+    #250902
+  );
+  min-height: 100vh;
+}
+
+.flight-card {
+  background-color: #250902;
+  color: white;
+  border: 1px solid #38040e;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(38, 9, 2, 0.4);
+  font-family: Arial, sans-serif;
+}
+
+.flight-card h2 {
+  color: #ad2831;
+  margin-bottom: 10px;
+}
+
+.flight-card p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.book-btn {
+  background-color: #ad2831;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.book-btn:hover {
+  background-color: #800e13;
+  transform: scale(1.05);
+}
+
+.loader {
+  text-align: center;
+  padding: 50px;
+  font-size: 20px;
+  color: #ad2831;
+}
+
+.error {
+  text-align: center;
+  padding: 50px;
+  color: red;
+  font-weight: bold;
+}
